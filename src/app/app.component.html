@@ -1,0 +1,25 @@
+<h1>WELCOME TO THE ADMIN PANEL</h1>
+<div style="text-align: center">
+<button class = "button button4" routerLink = "salary">GET A WELCOME MESSAGE</button></div>
+<app-rank></app-rank>
+
+
+  <tr *ngFor = "let item of datas">
+    <td>{{item.id}}</td>
+    <td>{{item.fullName}}</td>
+    
+  </tr>
+  <div style="text-align: center">
+
+<button class = "button button4" routerLink = "names">EMPLOYEE DETAILS</button>
+<router-outlet></router-outlet>
+<button class = "button button4" routerLink = "dept">DEPARTMENTWISE COVERAGE</button>
+<button class = "button button4" routerLink = "salry1">SALARY MANAGEMENT</button>
+<button class = "button button4" routerLink = "employee">ADD AN EMPLOYEE</button>
+<button class = "button button4" routerLink = "employee1">GET MY DETAIL</button></div>
+
+
+
+
+
+<router-outlet></router-outlet>

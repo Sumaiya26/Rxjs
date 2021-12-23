@@ -1,0 +1,12 @@
+<table>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>DEPARTMENT</th>
+      
+    <tr *ngFor = "let item of (data | async)">
+        <td>{{item.age}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.idDev}}</td>
+
+    </tr>
+</table>
